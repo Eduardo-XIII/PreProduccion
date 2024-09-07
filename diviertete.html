@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diviértete - El Papaloy</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        h1, h2 {
+            margin: 10px 0;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+            gap: 10px; /* Espacio entre las imágenes */
+            max-width: 1000px; /* Limitar el ancho total de la galería */
+            margin: 0 auto; /* Centrar la galería en la página */
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: white;
+            background-color: #333;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>El Papaloy</h1>
+    <h2>D I S F R U T A</h2>
+    
+    <div class="gallery">
+        <img src="modemyLap.jpeg" alt="Modem y Laptop">
+        <img src="tragamonedas.jpeg" alt="Tragamonedas">
+        <img src="brincolin.jpeg" alt="Brincolin">
+        <img src="camionpapapaloy.jpeg" alt="Camión Papaloy">
+        <img src="loby.jpeg" alt="Love & Tacos">
+        <img src="elpapaloy.jpeg" alt="Nombre Papaloy">
+    </div>
+
+    <button onclick="window.location.href='index.html'">Regresar a la Página Principal</button>
+</body>
+</html>
